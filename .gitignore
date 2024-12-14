@@ -1,15 +1,65 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (SDK location, build cache, etc.)
 local.properties
+
+# Log files
+*.log
+
+# Android Studio/IntelliJ IDEA settings
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries/
+.idea/**/vcs.xml
+
+# Android Studio build folder
+captures/
+.externalNativeBuild/
+
+# Generated binary files
+*.class
+*.dex
+*.apk
+*.ap_
+*.so
+*.jar
+*.war
+*.ear
+
+# Generated XML files
+*.iml
+*.hprof
+
+# Gradle Wrapper files
+!gradle-wrapper.jar
+
+# Files for the operating system
+.DS_Store
+Thumbs.db
+
+# Keystore files (keep them secret!)
+*.jks
+*.keystore
+
+# IntelliJ project-specific files
+*.idea/**/libraries/
+*.idea/**/modules.xml
+
+# Other unnecessary files
+*.tmp
+*.log
+*.bak
+*.swp
+*.orig
+*.~tmp~
+
+# Kotlin-specific files
+*.kt_metadata/
+
+# Exclude build and intermediate files
+build/
+out/
